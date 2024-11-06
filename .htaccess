@@ -1,0 +1,16 @@
+
+# Disable directory browsing 
+Options -Indexes
+
+RewriteEngine on
+
+RewriteRule ^([a-z]+)/welcome/$ /welcome/index.php?lang=$0
+RewriteRule ^([a-z]+)/welcome$ /welcome/index.php?lang=$0
+
+RewriteRule ^([a-z]+)/about/$ /about/index.php?lang=$0
+RewriteRule ^([a-z]+)/about$ /about/index.php?lang=$0
+
+RewriteRule ^([a-z]+)/index.css$ /index.css?lang=$0
+
+
+ErrorDocument 404 https://narawat.co.th/error

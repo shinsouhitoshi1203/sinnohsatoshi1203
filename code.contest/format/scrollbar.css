@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+  width: 0px;
+  height: 13px;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(253, 233, 0,0);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, rgba(6,16,246,1) 0%, rgba(180,0,208,1) 74%);;
+  border-radius: 0;
+}
+
+
+html {
+	scrollbar-color: transparent linear-gradient(180deg, rgba(6,16,246,1) 0%, rgba(180,0,208,1) 74%); /* thumb and track color */
+	scrollbar-width: thin;
+}

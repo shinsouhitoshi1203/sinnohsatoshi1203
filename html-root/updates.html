@@ -1,0 +1,20 @@
+<div class="notification">
+    <strong>reminder</strong>this is the old portfolio <i>i used under my old alias name</i>. i have updated some information, so there will be huge difference from the original one. <br>
+    <div>this notification is updated in 2567.11.05</div>
+</div>
+
+<style>
+    .notification {width: 300px; padding: 22px 40px; background: rgba(0, 0, 0, 0.5); position: fixed; top: 20px; right: 40px; z-index: 100; backdrop-filter: blur(100px); animation: pop .3s 1s ease-out; animation-fill-mode: both; transition: transform .3s;}
+    .notification:hover {scale: 1.05; cursor: pointer;}
+    strong {color: yellow; font-weight: normal; font-family: Segoe Semibold; display: inline-block; margin-right: 5px;}
+    i {color: rgb(132, 154, 255);}
+    .notification div {font-size: 15px; padding-top: 10px;}
+    @keyframes pop {
+        from  {
+            transform: translateY(calc(-100px - 100%));
+        }
+        to {
+            transform: translateX(-0);
+        }
+    }
+</style>

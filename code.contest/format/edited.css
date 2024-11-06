@@ -1,0 +1,48 @@
+/*For documentations*/
+@font-face {font-family: 'ne';src: url("/fonts/ne.ttf");}
+@font-face {font-family: 'book';src: url("/fonts/nee.ttf");}
+::root{--saturation-factor:1}
+*:not (code) {
+    font-family: 'Segoe Light', 'ThailandLight', 'Laos Light'!important;color: white;transition: 0.3s;font-size: 18px!important;
+    word-break: break-all;text-decoration: none;
+}
+a{text-decoration:none;color:#a8c7f7}
+a:hover{color:#5491f0}
+a:has(svg,span):hover{background: rgba(255,255,255,0.3);}
+b,a{font-family:Segoe Semibold, Thailand, Laos Light!important}
+h1{color:#00ffd8!important;margin:40px 0 15px 0!important;font-family:'Segoe Display Bold'!important;font-size:25.5px!important;}
+h2{color:#ff0!important;margin:15px 0 7.5px 0!important;font-size:19.5px!important;font-family:Segoe Semibold!important}
+h4{color:#bdc56e!important}
+svg {margin: 0 auto}
+html{color:#fff!important}
+.color-wrap{width:100%;height:100%;background:rgba(0,0,0,0.7);overflow:auto;margin:0}
+[class^=MsoListParagraphCxSp]{background-color:hsl(220,calc(var(--saturation-factor,1)*7.7%),22.9%)!important;padding:5px 0}
+[class^=MsoListParagraphCxSp] span{line-height:25px;color:#fff!important}
+[class^=MsoListParagraphCxSp] .cmd{font-family:consolas;color:#fff!important;background:#2f3136!important;border:1px solid #292b2f;border-radius:2px;padding:5px}
+.MsoNormal{color:#fff!important;font-size:18px!important;line-height:25px!important;margin-bottom:0!important;font-family: 'Segoe Light'!important}
+.MsoNormal img {width: 100%;max-width: 500px;margin:20px 0;}
+
+.MsoTitle{color:#00d0ff!important;font-family: 'ne'!important;}
+h3{color:#00d0ff!important}
+.WordSection1{width:calc(100% - 60px);max-width:1080px;margin:0 auto;padding: 30px;}
+.Tips{padding:5px;font-family:Segoe Display Bold;color:#fff!important;background:linear-gradient(90deg, rgb(155 42 195 / 29%) 0%, rgb(0 8 255 / 49%) 100%)!important;border:1px solid white;border-radius:0}
+.navigate-section{display: flex;margin-bottom: 15px;}
+.navigate-section > a{display: flex;align-items: center;width: 16px;border: 1px solid rgba(255,255,255,0.4);width: 35px;height: 35px;}
+.button {display: flex;align-items: center;width: 165px;border: 1px solid rgba(255,255,255,0.4);padding: 5px 15px} .button span {margin:0 auto;}
+.member-container {display:flex;width: calc(100%-40px);height: 65px;padding:20px;background: rgb(4 149 238 / 60%)}
+
+.member-container:hover {background: rgb(4 149 238 / 100%)}
+.member-avatar{width: 65px;} .member-avatar img {width: 100%;}
+.member-info {margin: 0 20px}
+.member-name b{font-size: 35px!important}
+
+@media all and (max-width: 740px)  {
+    .member-container{height: inherit;}
+    .member-avatar{display: none}
+    .member-info {margin: 0}
+    .member-sv {margin: 5px 0}
+}
+
+.rank1 {background: rgb(0 32 255 / 60%)}
+.rank2 {background: rgb(95 115 249 / 60%)}
+.rank3 {background: rgb(149 160 237 / 60%)}
